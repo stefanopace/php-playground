@@ -4,15 +4,9 @@ declare(strict_types=1);
 
 namespace App\Infrastructure\Commands;
 
-use Forecast\Core\Application\WeatherConditionForNextTwoDaysForAllCities;
-use Forecast\Infrastructure\Console\ConsoleIOHandler;
-use Forecast\Infrastructure\MusementCities\MusementCityRepository;
-use Forecast\Infrastructure\WeatherApiForecaster\WeatherApiForecaster;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Output\ConsoleOutputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Component\HttpClient\HttpClient;
 
 class SampleCommand extends Command
 {
