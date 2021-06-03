@@ -1,0 +1,14 @@
+version: '3.6'
+services:
+  php:
+    build: './docker/php'
+    working_dir: /src
+    env_file: .env
+    user: "${USER_ID:-1000}:${GROUP_ID:-1000}"
+    volumes:
+      - ./:/src
+  composer:
+    image: composer:2.0
+    user: "${USER_ID:-1000}:${GROUP_ID:-1000}"
+    volumes:
+      - ./:/app

@@ -1,0 +1,10 @@
+.idea/
+vendor/
+.env.test
+.env
+tests/coverage/
+.keep
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
