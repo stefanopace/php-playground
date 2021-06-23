@@ -1,6 +1,6 @@
 {
-    "name": "stefanopace/musement-forecast",
-    "description": "Forecast service for Musement cities",
+    "name": "stefanopace/php-playground",
+    "description": "Base setup for php applications",
     "type": "project",
     "authors": [
         {
